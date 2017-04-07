@@ -1,0 +1,119 @@
+/*Me gusta ser organizado*/
+header {
+  height: 150px;
+  background-color: rgb(58,70,100);
+  margin: 0px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  background-color: hsla(120, 100%, 50%, 0.3);
+}
+
+footer {
+  height: 200px;
+  background-color: rgb(58,70,100);
+  clear: both;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+
+}
+
+h1 {
+  padding-top: 40px;
+  padding-left: 0px;
+  color: rgb(170,170,170);
+  font-size: 3em;
+}
+
+h2 {
+  text-align: center;
+  margin: 7px;
+  color: rgb(170,170,170);
+}
+/*Aquí se ponen los class*/
+.product {
+  height: 400px;
+  width: 400px;
+  float: left;
+  background-color: black;
+  margin: 90;
+  position: relative;
+  border-radius: 30px;
+
+}
+
+.subtitle{
+  width: 400;
+  height: 50px;
+  position: absolute;
+  background-color: rgba(58,70,100,0.5);
+
+  top: 170px;
+}
+
+.myButton {
+  float: right;
+  -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d));
+  background:-moz-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+  background:-webkit-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+  background:-o-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+  background:-ms-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+  background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d',GradientType=0);
+  background-color:#ff5bb0;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #ee1eb5;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:13px 32px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #c70067;
+}
+.myButton:hover {
+  float: right;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0));
+  background:-moz-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+  background:-webkit-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+  background:-o-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+  background:-ms-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+  background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0',GradientType=0);
+  background-color:#ef027d;
+}
+.myButton:active {
+  float: right;
+  position:relative;
+  top:1px;
+}
+/*Aquí an los id*/
+#producto {
+  background-image: url("https://rlv.zcache.com/awesome_face_sticker-r89951cf664484e6784d8fc501016f6d8_v9waf_8byvr_324.jpg");
+  background-size: 400px;
+}
+
+#producto2{
+  background-image: url("http://www.sopitas.com/wp-content/uploads/2016/04/deadpool2-1.jpg");
+  background-size: 400px;
+}
+
+#producto3{
+  background-image: url("http://static.wixstatic.com/media/9625d4_ac8ae87a1b5c49c7a5d7bcd4d660136f~mv2.jpg/v1/fill/w_650,h_258/9625d4_ac8ae87a1b5c49c7a5d7bcd4d660136f~mv2.jpg");
+  background-size: 400px;
+}
+
+#producto4{
+  background-image: url("http://img1.meristation.com/files/imagenes/general/spawn-from-front-with-red-cape.jpeg");
+  background-size: 400px;
+}
