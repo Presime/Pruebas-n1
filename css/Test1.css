@@ -1,15 +1,15 @@
 /*Me gusta ser organizado*/
 header {
-  height: 150px;
+  height: 10em;
   background-color: rgb(58,70,100);
-  margin: 0px;
+  margin: 0em;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 body {
   font-family: sans-serif;
   margin: 0px;
-  background-color: hsla(120, 100%, 50%, 0.3);
+  background-color: #f0f0f5;
 }
 
 footer {
@@ -33,16 +33,32 @@ h2 {
   margin: 7px;
   color: rgb(170,170,170);
 }
+
+div{
+  border: solid black 1px;
+
+}
+
 /*Aquí se ponen los class*/
 .product {
   height: 400px;
   width: 400px;
-  float: left;
+  float: center;
+  text-align: center;
+  vertical-align: middle;
   background-color: black;
   margin: 90;
   position: relative;
   border-radius: 30px;
 
+}
+
+.formulario {
+  text-align: center;
+  margin: 7px;
+  /*color: rgb(170,170,170);*/
+  text-align: center;
+  vertical-align: middle;
 }
 
 .subtitle{
