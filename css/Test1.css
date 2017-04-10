@@ -113,23 +113,36 @@ div{
   position:relative;
   top:1px;
 }
+.video-responsive {
+    position: top;
+    margin-bottom: 20px;
+    padding-top: 0%;
+}
+/*.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /*Aquí an los id*/
 #producto {
-  background-image: url("https://rlv.zcache.com/awesome_face_sticker-r89951cf664484e6784d8fc501016f6d8_v9waf_8byvr_324.jpg");
+  background-image: url("https://sonrisitasdelavida.files.wordpress.com/2012/10/imagescaufarci1.jpg");
   background-size: 400px;
 }
 
 #producto2{
-  background-image: url("http://www.sopitas.com/wp-content/uploads/2016/04/deadpool2-1.jpg");
+  background-image: url("https://sonrisitasdelavida.files.wordpress.com/2012/10/imagescaufarci1.jpg");
   background-size: 400px;
 }
 
 #producto3{
-  background-image: url("http://static.wixstatic.com/media/9625d4_ac8ae87a1b5c49c7a5d7bcd4d660136f~mv2.jpg/v1/fill/w_650,h_258/9625d4_ac8ae87a1b5c49c7a5d7bcd4d660136f~mv2.jpg");
+  background-image: url("https://sonrisitasdelavida.files.wordpress.com/2012/10/imagescaufarci1.jpg");
   background-size: 400px;
 }
 
 #producto4{
-  background-image: url("http://img1.meristation.com/files/imagenes/general/spawn-from-front-with-red-cape.jpeg");
+  background-image: url("https://sonrisitasdelavida.files.wordpress.com/2012/10/imagescaufarci1.jpg");
   background-size: 400px;
 }
