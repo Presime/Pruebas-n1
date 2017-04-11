@@ -34,8 +34,9 @@ h2 {
   color: rgb(170,170,170);
 }
 
-/*div{
-  border: solid black 1px;
+div{
+  border: solid black 0px;
+  text-justify: auto;
 
 }
 
@@ -128,13 +129,13 @@ h2 {
 
 /*Aquí an los id*/
 #producto {
-  background-image: url("https://sonrisitasdelavida.files.wordpress.com/2012/10/imagescaufarci1.jpg");
-  background-size: 400px;
+  /*background-image: url("https://sonrisitasdelavida.files.wordpress.com/2012/10/imagescaufarci1.jpg");
+  background-size: 400px; */
 }
 
 #producto2{
-  background-image: url("https://sonrisitasdelavida.files.wordpress.com/2012/10/imagescaufarci1.jpg");
-  background-size: 400px;
+  background-image: url("https://static.pexels.com/photos/8700/wall-animal-dog-pet.jpg");
+  background-size: 30em; 
 }
 
 #producto3{
