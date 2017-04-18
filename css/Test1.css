@@ -135,7 +135,7 @@ div{
 
 #producto2{
   background-image: url("https://static.pexels.com/photos/8700/wall-animal-dog-pet.jpg");
-  background-size: 30em; 
+  background-size: 400px;
 }
 
 #producto3{
@@ -146,4 +146,7 @@ div{
 #producto4{
   background-image: url("https://sonrisitasdelavida.files.wordpress.com/2012/10/imagescaufarci1.jpg");
   background-size: 400px;
+}
+#scroll{
+  position:fixed !important; right:0px; top:10px; z-index:-10 !important
 }
